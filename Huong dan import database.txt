@@ -1,0 +1,9 @@
+Bước 1: Import file sql vào SQL Server
+Bước 2: Copy server name trong SQL server management studio, 
+sau đó mở file DAL_User trong project, 
+dán tên server vừa copy vào sau dòng Data Source= và trước dấu ; và ấn Save
+
+--Account test
+username: ngudatho
+pass: ngudat
+ 
