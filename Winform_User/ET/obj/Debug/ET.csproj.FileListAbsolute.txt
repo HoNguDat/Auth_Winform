@@ -1,0 +1,6 @@
+D:\WF\Auth_Winform\Winform_User\ET\bin\Debug\ET.dll
+D:\WF\Auth_Winform\Winform_User\ET\bin\Debug\ET.pdb
+D:\WF\Auth_Winform\Winform_User\ET\obj\Debug\ET.csproj.AssemblyReference.cache
+D:\WF\Auth_Winform\Winform_User\ET\obj\Debug\ET.csproj.CoreCompileInputs.cache
+D:\WF\Auth_Winform\Winform_User\ET\obj\Debug\ET.dll
+D:\WF\Auth_Winform\Winform_User\ET\obj\Debug\ET.pdb

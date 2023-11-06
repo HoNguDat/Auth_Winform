@@ -1,0 +1,11 @@
+D:\WF\Auth_Winform\Winform_User\BUS\bin\Debug\BUS.dll
+D:\WF\Auth_Winform\Winform_User\BUS\bin\Debug\BUS.pdb
+D:\WF\Auth_Winform\Winform_User\BUS\bin\Debug\DAL.dll
+D:\WF\Auth_Winform\Winform_User\BUS\bin\Debug\ET.dll
+D:\WF\Auth_Winform\Winform_User\BUS\bin\Debug\DAL.pdb
+D:\WF\Auth_Winform\Winform_User\BUS\bin\Debug\ET.pdb
+D:\WF\Auth_Winform\Winform_User\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\WF\Auth_Winform\Winform_User\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\WF\Auth_Winform\Winform_User\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\WF\Auth_Winform\Winform_User\BUS\obj\Debug\BUS.dll
+D:\WF\Auth_Winform\Winform_User\BUS\obj\Debug\BUS.pdb

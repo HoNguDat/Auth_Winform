@@ -1,0 +1,9 @@
+D:\WF\Auth_Winform\Winform_User\DAL\bin\Debug\DAL.dll
+D:\WF\Auth_Winform\Winform_User\DAL\bin\Debug\DAL.pdb
+D:\WF\Auth_Winform\Winform_User\DAL\bin\Debug\ET.dll
+D:\WF\Auth_Winform\Winform_User\DAL\bin\Debug\ET.pdb
+D:\WF\Auth_Winform\Winform_User\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\WF\Auth_Winform\Winform_User\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\WF\Auth_Winform\Winform_User\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\WF\Auth_Winform\Winform_User\DAL\obj\Debug\DAL.dll
+D:\WF\Auth_Winform\Winform_User\DAL\obj\Debug\DAL.pdb
