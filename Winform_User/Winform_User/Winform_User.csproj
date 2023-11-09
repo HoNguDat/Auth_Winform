@@ -64,6 +64,7 @@
     <Compile Include="frm_User.Designer.cs">
       <DependentUpon>frm_User.cs</DependentUpon>
     </Compile>
+    <Compile Include="Libs\FileHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm_Login.resx">
@@ -106,6 +107,9 @@
       <Project>{a6e73e01-1916-4863-bd97-981e91356615}</Project>
       <Name>ET</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

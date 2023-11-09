@@ -11,7 +11,7 @@ namespace DAL
 {
     public class DAL_User
     {
-        SqlConnection con = new SqlConnection("Data Source=;Initial Catalog=Winform_Auth;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Data Source=DESKTOP-Q57GG44\\SQLEXPRESS;Initial Catalog=Winform_Auth;Integrated Security=True");
         SqlDataAdapter dalUser;
         SqlCommand cmdUser;
         DataTable dtUser;

@@ -9,49 +9,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Winform_User.Libs;
 
 namespace Winform_User
 {
     public partial class frm_Register : Form
     {
         BUS_User bsUser = new BUS_User();
+        FileHelper fileHelper = new FileHelper();
+
         public frm_Register()
         {
             InitializeComponent();
         }
 
+        //Write valid user info to text file
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            if ( txtFullName.Text == "" || txtUserName.Text == "" || txtPass.Text == "")
+            if (txtUserName.Text == "" || txtPass.Text == "")
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ thông tin", "Hệ thống", MessageBoxButtons.OK, MessageBoxIcon.Asterisk, MessageBoxDefaultButton.Button1);
             }
             else
             {
-                ET_User etNV = new ET_User(txtId.Text, txtFullName.Text, txtUserName.Text, txtPass.Text);
-                if (bsUser.Register(etNV) == 1)
-                {
-                    MessageBox.Show("Đăng ký thành công !", "Hệ thống", MessageBoxButtons.OK, MessageBoxIcon.Asterisk, MessageBoxDefaultButton.Button1);
-                    this.Close();
+                var arrUserInfo = new string[] { txtUserName.Text, txtPass.Text };
+                fileHelper.writeUser(fileHelper.parseToString(arrUserInfo));
 
-                }
-                else
-                {
-                    MessageBox.Show("Đăng ký không thành công ! !", "Hệ thống", MessageBoxButtons.OK, MessageBoxIcon.Asterisk, MessageBoxDefaultButton.Button1);
-                }
-            }
-        }
-
-        private void cbHienmatkhau_CheckedChanged(object sender, EventArgs e)
-        {
-            if (cbHienmatkhau.Checked)
-            {
-                txtPass.UseSystemPasswordChar = false;
-            }
-            else
-            {
-                txtPass.UseSystemPasswordChar = true;
+                MessageBox.Show("Đăng ký thành công !", "Hệ thống", MessageBoxButtons.OK, MessageBoxIcon.Asterisk, MessageBoxDefaultButton.Button1);
+                this.Close();
             }
         }
     }
+
 }
